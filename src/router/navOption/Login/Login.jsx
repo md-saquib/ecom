@@ -25,7 +25,7 @@ const Login = () => {
     }
   }
   const passwordValidation = ()=>{
-    if(passwordRef.current.value == data.password){
+    if(passwordRef.current.value === data.password){
       loginInfo.setLoginInfo(data)
       navigate(`${location.state.pathname}`)
       setPassword('')

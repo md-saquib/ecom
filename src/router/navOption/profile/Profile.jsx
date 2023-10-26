@@ -8,7 +8,8 @@ const Profile = () => {
   const login = useContext(userInfo)
   return (
     <div className="profile">
-      <img src="https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg" alt="Profile Picture" className="profile-picture" />
+      
+      <image src="https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg" alt="Profile Picture" className="profile-picture" />
       <h2 className="profile-name">John Doe</h2>
       <p className="profile-bio">Frontend Developer</p>
       <ul className="profile-details">

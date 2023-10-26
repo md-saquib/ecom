@@ -1,6 +1,6 @@
-import React, { useContext, useRef, useState } from 'react'
+import React, {  useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { userInfo } from '../../authContext/AuthContext'
+// import { userInfo } from '../../authContext/AuthContext'
 import './LogSign.css'
 
 
@@ -12,7 +12,7 @@ const SignIn = () => {
   const nameRef = useRef();
   const conformPasswordRef = useRef();
   const passwordRef = useRef();
-  const signinInfo = useContext(userInfo)
+  // const signinInfo = useContext(userInfo)
 
 
 
