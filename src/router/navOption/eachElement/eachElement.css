@@ -1,0 +1,36 @@
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-name {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .card-instock {
+    font-weight: bold;
+  }
+  
+  .card-price {
+    letter-spacing: 1px;
+  }
+  
+  .card-rating {
+  }
+  
+  .star-icon {
+    color: #f0c040;
+  }
+  
+  .card-fastdelivery {
+    color: green;
+  }
+  

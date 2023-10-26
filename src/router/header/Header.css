@@ -1,0 +1,30 @@
+
+header{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+.active{
+    font-weight: 700;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+nav>p{
+    padding: 1.2rem 1rem;
+}
+.brand{
+    padding: 0.7rem 1rem;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+.login{
+    padding: 1.2rem 1rem;
+}
