@@ -4,7 +4,7 @@ import '../categaryOption/categary.css'
 const Categaryoption = ({ fun, fixedData }) => {
 
   const categories = []
-  fixedData.map(el => {
+  fixedData.forEach(el => {
     categories.push(el.category)
   })
 

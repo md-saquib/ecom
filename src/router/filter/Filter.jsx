@@ -31,7 +31,7 @@ const Filter = () => {
 
   const categoryFilter = (e) => {
 
-    console.log(e.target.checked);
+   
     const categoryfilter = fixedData.filter((el) => {
       return el.category === e.target.id
     })
