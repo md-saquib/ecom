@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useReducer, useState } from 'react'
+import React, { createContext,  useEffect, useReducer, useState } from 'react'
 // import { faker } from '@faker-js/faker'
 import cartReducer from '../cartReducer/cartReducer';
 

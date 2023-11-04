@@ -7,7 +7,7 @@ import { userInfo } from '../authContext/AuthContext';
 
 const Filter = () => {
 
-  const { dispatch, state: { data, fixedData } } = useContext(userInfo);
+  const { dispatch, state: {  fixedData } } = useContext(userInfo);
 
 
   let [count, setcount] = useState({
