@@ -8,8 +8,12 @@ const cartReducer = (state, action) => {
         return { ...state, data: action.data, fixedData: action.data }
       else
         return { ...state, data: action.data }
-  }
 
+
+    default :
+      break;
+  }
+  
   return (
     <div>cartReducer</div>
   )
