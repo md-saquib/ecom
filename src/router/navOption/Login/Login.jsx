@@ -14,7 +14,7 @@ const Login = () => {
   const nameRef = useRef();
   const passwordRef = useRef();
 
-  console.log(location);
+  console.log(!location.state );
   
   const nameValidation = ()=>{
     if(localStorage.getItem(`${nameRef.current.value}`)){
@@ -25,9 +25,16 @@ const Login = () => {
     }
   }
   const passwordValidation = ()=>{
-    if(passwordRef.current.value === data.password){
+    if(passwordRef.current.value == data.password){
       loginInfo.setLoginInfo(data)
-      navigate(`${location.state.pathname}`)
+      if(!location.state){
+        navigate('/')
+      }
+      else  {
+        navigate(`${location.state.pathname }`)
+        console.log('hello');
+      }
+
       setPassword('')
     }else{
       setPassword('Wrong password !...')

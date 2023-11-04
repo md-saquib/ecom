@@ -18,7 +18,7 @@ const Header = () => {
                 <p><NavLink to='/contact'>Contact</NavLink></p>
             </nav>
             <div className="login">
-                <p>{ login.loginInfo.userName ? <h5>{login.loginInfo.userName}</h5> : <NavLink to='/login'>Log-In</NavLink>}</p>
+                <p>{ login.loginInfo.userName ? <span>{login.loginInfo.userName}</span> : <NavLink to='/login'>Log-In</NavLink>}</p>
             </div>
         </header>
     </>
